@@ -1,0 +1,59 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Football League</title>
+</head>
+
+<body>
+    <div class = "header">
+        <div class="navbar">
+            <div class="LogoNFL">
+                <img src="" alt="">
+            </div>
+            <div class="Opcoes">
+                <span>Notícia</span>
+                <span>História</span>
+                <span>Jogadores</span>
+                <span>Sobre Nós</span>
+            </div>
+            <div class="imgtimes">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+    <div class = "main"><!--Corpo principal do site-->
+        <div class="modal">
+            <div class="divImg"><!--Imagem de um jogador e ao lado um texto-->
+                <div>
+                    <img src="" alt=""><!--imagem-->
+                </div>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati optio sapiente minima, ex animi
+                    hic sit assumenda possimus impedit alias quaerat esse voluptate consectetur temporibus perferendis
+                    voluptas explicabo dolore quidem!</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="principaisnot"><!--Principais noticias-->
+
+            </div>
+        </div>
+    </div>
+    <div class = "rodapé">
+        <div class = "div_pai">
+            <p>Redes Sociais</p>
+            <div class = "logoRedes">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class = div_esqpai>
+            <p>Endereço</p>
+            <p>Telefone</p>
+            <p>CNPJ</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
