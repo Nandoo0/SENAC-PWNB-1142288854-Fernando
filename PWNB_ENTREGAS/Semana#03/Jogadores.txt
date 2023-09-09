@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div><!--AQUI VAI SER A HEADER-->
+        <div><!--div de padding da img pra n ficar sozinha-->
+            <div><!--LOGO NFL-->
+                <img src="" alt="">
+            </div>
+        </div>
+        <div><!--div que vai compor a barra NAV-->
+            <p>Início</p>
+            <p>Notícias</p>
+            <p>História</p>         
+            <p>Sobre Nós</p>
+        </div>
+    </div><!--AQUI FECHA A HEADER-->
+    <div><!--MAIN-->
+        <div><!--div pra mexer no padding do texto-->
+            <p>PRINCIPAIS JOGADORES DA TEMPORADA 2023</p>
+        </div>
+        <div><!--div para imagem da esquerda e texto-->
+            <div><!--imagem e texto embaixo dela sobre o jogador-->
+                <img src="" alt="">
+            </div>
+        </div>
+        <div><!--div para imagem e txt do lado direito-->
+            <div><!--imagem e texto embaixo dela sobre o jogador-->
+                <img src="" alt="">
+            </div>
+        </div>
+        <div><!--div para arrumar a imagem maior com txt do jogador no meio embaixo-->
+            <div><!--div que contem dentro dela a img e o txt-->
+                <img src="" alt=""><!--img lado direito-->
+                <p>Texto lado esquerdo</p><!--teremos cetas para mudar os jogadores e a historia-->
+            </div>
+        </div>
+    </div><!--FECHA MAIN-->
+    <div><!--AQUI ABRE O FOOTER-->
+        <div><!--div que contém informações sobre nós-->
+            <p>Endereço</p>
+            <p>Redes Sociais</p>
+            <p>Forma de contato</p>
+        </div>
+        <div><!--div com padding que contem icones de redes sociais-->
+            <img src="" alt="">
+        </div>
+        <div><!--canto inferior direito "todos direitos reservados"-->
+            
+        </div>
+    </div><!--AQUI FECHA O FOOTER-->
+</body>
+
+</html>

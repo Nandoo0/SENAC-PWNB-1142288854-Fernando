@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Football League</title>
+</head>
+
+<body>
+    <div><!--AQUI VAI SER A HEADER-->
+        <div><!--div de padding da img pra n ficar sozinha-->
+            <div><!--LOGO NFL-->
+                <img src="" alt="">
+            </div>
+        </div>
+        <div><!--div que vai compor a barra NAV-->
+            <p>Início</p>
+            <p>Notícias</p>
+            <p>História</p><!--Quando passar o mouse, aparece só história da NFL-->
+            <p>Sobre Nós</p>
+        </div>
+    </div><!--AQUI FECHA A HEADER-->
+    <div><!--abre main-->
+        <div><!--Texto que compoe a div de apresentação da pagina e enfase do melhor time de 2023-->
+            <div><!--apresentação da pagina-->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ea, soluta repellendus corrupti
+                recusandae, vel rem quae magnam error repellat nostrum quos, fuga accusantium natus aut enim maiores
+                velit ipsa!
+            </div>
+            <div><!--enfase sobre o melhor time da temporada-->
+                <h2>Aqui temos o time principal</h1>
+                    <p>Com quantidade X de vitórias, se mantendo lider da **** o time *** segue em victo no campeonato,
+                        para recaptular e homenagear o time, colocamos a história
+                        do time que está dando oque falar.
+                    </p>
+            </div>
+        </div>
+        <div><!--Div pai da imagem e da historia do time principal-->
+            <div><!--div filha que compoe somente o a imagem do emblema do time ou similar no canto esquerdo-->
+                <img src="" alt="">
+            </div>
+            <div>
+                <!--div filha que compoe o texto ao lado direito da imagem do emblema com a história do time principal-->
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<!--Texto aleatorio-->
+                    Obcaecati tempora natus at porro modi soluta aperiam corrupti, corporis placeat perferendis.
+                    Magnam provident nemo ut, sunt labore ullam! Enim, aliquid vitae.
+                </p>
+            </div>
+        </div>
+        <div><!--Div pai da imagem e historia dos demais times nesta div teremos carousel"cetas para mudar os times"-->
+            <div><!--div filha do texto com a história de um dos times ao lado esquerdo-->
+                <h2>Aqui temos a história de um dos times</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ut nihil eveniet itaque molestias, eligendi cumque ipsam.
+                    Quaerat illum facere eaque rerum, natus vel ex, minus hic unde dolor, nisi rem.
+                </p>
+            </div>
+            <div><!--div filha da imagem de um dos times ao lado direito do texto-->
+                <h2>Aqui temos a de um dos times</h2>
+                <img src="" alt="">
+            </div>
+        </div>
+    </div><!--fecha main-->
+    <div><!--abre footer-->
+        <div><!--div que contém informações sobre nós-->
+            <h3>Aqui temos informações sobre nós</h3>
+            <p>Endereço</p>
+            <p>Redes Sociais</p>
+            <p>Forma de contato</p>
+        </div>
+        <div><!--div com padding que contem icones de redes sociais-->
+            <h3>Aqui temos icones das redes sociais</h3>
+            <img src="" alt="">
+        </div>
+        <div><!--canto inferior direito "todos direitos reservados"-->
+            <h3>Aqui temos o termo "direitos reservados"</h3>
+        </div>
+    </div><!--fecha footer-->
+</body>

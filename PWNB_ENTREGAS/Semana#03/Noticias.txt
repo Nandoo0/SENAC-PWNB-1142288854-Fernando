@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias</title>
+</head>
+
+<body>
+    <div><!--AQUI VAI SER A HEADER-->
+        <div><!--LOGO NFL-->
+            <img src="" alt="">
+        </div>
+        <div><!--div que vai compor a barra NAV-->
+            <p>Início</p>
+            <p>História</p>
+            <p>Jogadores</p>
+            <p>Sobre Nós</p>
+        </div>
+    </div><!--AQUI FECHA A HEADER-->
+    <div> <!--AQUI ABRE A MAIN-->
+        <div><!--SECTIONS DE NOTICIAS 1 LADO ESQUERDO-->
+            <img src="" alt="">
+        </div>
+        <div><!--SECTIONS DE NOTICIAS 2 LADO ESQUERDO-->
+            <img src="" alt="">
+        </div>
+        <div><!--MAIS UMA NOTICIA SOLTA EMBAIXO LADO ESQUERDO-->
+
+        </div>
+        <div><!--NOTICIA GRANDE LADO DIREITO-->
+            
+        </div>
+        <div><!--NOTICIAS GRANDES(POSSIBILIDADE DE ALTERNAR ENTRE ELAS COM CETAS)-->
+
+        </div>
+    </div><!--AQUI FECHA A MAIN-->
+    <div><!--AQUI ABRE O FOOTER-->
+        <div><!--div que contém informações sobre nós-->
+            <p>Endereço</p>
+            <p>Redes Sociais</p>
+            <p>Forma de contato</p>
+        </div>
+        <div><!--div com padding que contem icones de redes sociais-->
+            <img src="" alt="">
+        </div>
+        <div><!--canto inferior direito "todos direitos reservados"-->
+
+        </div>
+    </div><!--AQUI FECHA O FOOTER-->
+</body>
+
+</html>
