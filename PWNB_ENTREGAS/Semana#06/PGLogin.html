@@ -6,7 +6,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #021350; 
+            background-color: #0a2892; 
             font-family: Arial, sans-serif;
         }
 
@@ -35,7 +35,7 @@
             width: 100%;
             padding: 10px;
             margin-bottom: 20px;
-            border: 1px solid #ccc;
+            border: 1px solid rgb(129, 129, 129);
             border-radius: 3px;
         }
 
@@ -54,6 +54,7 @@
     </style>
 </head>
 <body>
+   
     <div class="login-container">
         <h1>Login</h1>
         <form>
@@ -64,14 +65,11 @@
             <input type="password" id="password" required>
 
             <button type="button" onclick="redirectPage()">Entrar</button>
+            
         </form>
     </div>
-
-    <script>
-        function redirectPage() {
-            window.location.href = 'home.html';
-        }
-    </script>
+    <script src="dom.js"></script>
+    
 </body>
 </html>
 </html>
