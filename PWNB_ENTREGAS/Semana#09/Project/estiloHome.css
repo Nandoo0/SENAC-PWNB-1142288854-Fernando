@@ -1,0 +1,300 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  width: 100%;
+ margin: 0 auto;
+ padding: 0 2%;
+  background-color: rgba(0, 0, 255, 0.075);
+}
+header{
+
+  height: 70px;
+  background-color: #13293D;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+
+}
+li:last-child{
+  margin-right: 30px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  }
+nav li a{
+  color: white;
+  display:block;
+  text-decoration: none;
+  margin-left: 20px;
+}
+nav a:hover{
+  transition: 0.5 ease;
+  color:#b1b0b0cd;
+}
+
+.logo{
+   width: 50px;
+   height: 50px;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  width: min-content;
+  height: 70px;
+  
+  align-items: center;
+}
+.navbar img{
+  width: 90px;
+  height: 60px;
+  padding: 10px;
+}
+.navbar img:first-child{
+  margin-right: 0;
+
+}
+.NFL h2 span{
+  font-size: 35px;
+  color: rgb(25, 13, 133);
+}
+
+.NFL h2{
+  font-size: 35px;
+  color: #000;
+}
+
+.center{
+  
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2%;
+
+  flex-wrap: wrap;
+}
+.wrapper-header{
+  padding: 22px 0;
+  margin-right: 22px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.banner{
+  width:20%;
+  height: 14px;
+  position: relative;
+  background-color: #000000; 
+}
+
+.banner h2{
+  position: relative;
+  left: 10px;
+  top:10px;
+  font-size: 15px;
+  color: white;
+
+}
+
+.corpo{
+  align-items: flex-start;
+  align-content: flex-start;
+  width: min-content;
+  display: flex;
+  justify-content: space-between;
+}
+.text{
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  
+}
+.imgCentro{
+  margin-top: 40px;
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+ 
+  border-radius: 50px;
+
+}
+.caixa-principal{
+  background-color: white;
+  
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, .2);
+  padding: 15px;
+  text-decoration: none;
+}
+.principal{
+  display: flex;
+  gap: 50px;
+}
+.caixa-noticia1{
+  background-color: white;
+  
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, .2);
+  padding: 15px;
+  text-decoration: none;
+
+}
+
+.noticia-main{
+  text-decoration: none !important;
+}
+
+.section1{
+  width: 55%;
+  margin-left: 30px;
+}
+
+.caixa-noticia1 h3{
+  font-size: 14px;
+  color: #13293D;
+  
+}
+
+
+
+.noticia-main:hover .caixa-noticia1 h3 {
+  color: rgb(25, 11, 155);
+
+}
+
+.caixa-noticia2{
+  background-color: white;
+  
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, .2);
+  padding: 15px;
+  text-decoration: none;
+}
+.noticia2 h3{
+  font-size: 15px;
+  color: #13293D;
+}
+.noticia2 img{
+  width: 100%;
+  margin-top: 1rem;
+}
+.redirect{
+  text-decoration: none;
+}
+.redirect:hover .caixa-noticia2 h3{
+  color: rgb(25, 11, 155);
+}
+.redirect-notice{
+  text-decoration: none;
+}
+.txt-outra{
+  background-color: white;
+  
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, .2);
+  padding: 15px;
+  text-decoration: none;
+}
+.outra-noticia h3{
+  font-size: 14px;
+  color: #13293D;
+}
+.redirect-notice:hover .txt-outra h3{
+  color: rgb(25, 11, 155);
+}
+
+.container img{
+  width: 400px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.section-secundario{
+  margin-top: 10rem;
+justify-content: center;
+  display: flex;
+
+}
+.video{
+  padding-bottom: 2px;
+}
+.video h1{
+  font-size: 20px;
+  color: #13293D;
+  padding-bottom: 1rem;
+}
+
+
+footer{
+  background-color: #13293D;
+}
+.footer-container{
+  width: 100%;
+  padding: 10px 30px 20px;
+}
+.icones{
+  display: flex;
+  justify-content: center;
+}
+.icones a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.icones a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+.icones a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+.icones a:hover i{
+  color:white;
+  transition: 0.5s;
+}
+
+.nav-footer{
+  margin: 30px 0;
+
+}
+.nav-footer ul{
+  display: flex;
+  justify-content: center;
+}
+.nav-footer ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.nav-footer ul li a:hover{
+  opacity: 10;
+}
+.footer-baixo{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footer-baixo p{
+  color: white;
+
+}
+.devs{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+
+
+
