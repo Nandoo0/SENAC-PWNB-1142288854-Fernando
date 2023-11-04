@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="aparencia.css">
+    <script src="codigos.js"></script>
+</head>
+
+<body>
+    <h1>Cadastro de Clientes</h1>
+
+    <div class="Painel">
+        <label for="TipoCliente">Tipo de Cliente:</label>
+        <select id="TipoCliente" required>
+            <option value="              ">              </option>
+            <option value="Bronze">Bronze</option>
+            <option value="Prata">Prata</option>
+            <option value="Ouro">Ouro</option>
+            <option value="Platina">Platina</option>
+            <option value="Diamante">Diamante</option>
+        </select>
+    </div>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+
+        <label for="Sobrenome">Sobrenome:</label>
+        <input type="text" id="Sobrenome" required>
+
+        <label for="CPF">CPF:</label>
+        <input type="text" id="CPF" required>
+
+        <label for="DataNascimento">Data de Nascimento:</label>
+        <br>
+        <input type="date" id="DataNascimento" required>
+        <br>
+        <label for="Cidade">Cidade:</label>
+        <input type="text" id="Cidade" required>
+
+        <label for="CEP">CEP:</label>
+        <input type="text" id="CEP" required>
+
+        <label for="Endereco">Endereço:</label>
+        <input type="text" id="Endereco" required>
+
+        <label for="NumeroCasa">Número da Casa:</label>
+        <input type="text" id="NumeroCasa" required>
+    </form>
+    <div class="button-container">
+        <button type="button" id="incluir">Incluir Cliente</button>
+        <button type="button" id="excluir">Excluir Cliente</button>
+        <button type="button" id="alterar">Alterar Cliente</button>
+        <button type="button" id="limparCampos">Limpar Campos</button>
+    </div>
+    <div class="PainelClientes">
+        <ul id="clientes">
+        </ul>
+    </div>
+
+</body>
+
+</html>
+
+</html>
