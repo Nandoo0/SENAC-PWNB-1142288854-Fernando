@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    position: relative;
+    background-color: #888080;
+}
+
+input,
+button,
+li {
+    all: unset;
+}
+
+.container_xl {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+
+    width: 100%;
+    height: 100vh;
+    background: #ffffff
+}
+
+*::-webkit-scrollbar {
+    width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: rgba(25, 25, 25, .8);
+    border-radius: 1em;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 110, 220);
+    border-radius: 1em;
+}
+
+.caixa_lista,
+.caixa_principal {
+    background-color: rgb(255, 255, 255);
+    padding: 1.6rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 0 rgba(255, 255, 255, 0.25);
+    min-height: max-content;
+}
+
+.caixa_principal h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+
+.estilo_padrao_input label,
+.estilo_padrao_select sub {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(20, 20, 20);
+    margin-bottom: 2px;
+}
+
+.estilo_padrao_input input {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(150, 150, 150);
+    min-height: 2rem;
+    padding: 0 .5rem;
+}
+
+.estilo_padrao_select .bloco_select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(150, 150, 150);
+    padding: .4rem .6rem;
+    margin-top: 3px;
+    max-width: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.estilo_btn button {
+    padding: .45rem 1.65rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(101, 101, 101);
+    border-radius: 5px;
+    font-size: .92rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+    cursor: pointer;
+    transition: all .45s;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.titulos_colunas span {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.linha_itens li {
+    padding: 0 2px;
+}
+
+.bloco_btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+
+.btns_topo_lista {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
