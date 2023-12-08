@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogadores</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/jogadores.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/slide.css" type="text/css" media="screen">
+    <title>National Football League</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/domlogin.js" defer></script>
+    <script src="js/dom.js" defer></script>
+    <script src="js/slide.js" defer></script>
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <div>
+                <a href="index.html">
+                    <img class="logo" src="img/NFL-Logo.svg" alt="Logo NFL">
+                </a>
+            </div>
+            <nav class="navbar">
+                <a href="historiaDallas.html">
+                    <img src="img/dallaslogo.png" alt="Logo Dallas">
+                </a>
+
+                <a href="historiaPatriots.html">
+                    <img src="img/patriotslogo.png" alt="Logo New England">
+                </a>
+
+                <a href="historiaGreenBay.html">
+                    <img src="img/greenbaylogo.jpg" alt="Logo Green Bay">
+                </a>
+
+                <a href="historiaGiants.html">
+                    <img src="img/nwgiantslogo.png" alt="Logo Giants">
+                </a>
+
+                <a href="historiaWhshington.html">
+                    <img src="img/washingtonlogo.jpeg" alt="Logo Washington">
+                </a>
+            </nav>
+            <nav>
+                <ul>
+                    
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li><a href="jogadores.html">Jogadores</a></li>
+                    <li><a onclick="clicklogin()" id="welcome-message"></a></li>
+                </ul>
+            </nav>
+
+
+            <!-- </div>-->
+        </header>
+        <section class="slider">
+            <div class="div-title">
+                <h1>Os 3 Melhores Jogadores de 2023</h1>
+            </div>
+            <div class="slider-content">
+
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+
+                <div class="slide-box primeiro">
+                    <img src="img/Patrick Mahomes.jpg" alt="slide-1">
+                </div>
+
+                <div class="slide-box">
+                    <img src="img/justinjeff.jpg" alt="slide-1">
+                </div>
+
+                <div class="slide-box">
+                    <img src="img/jalenhurts.jpg" alt="slide-1">
+                </div>
+
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+        </section>
+
+        <main><!--MAIN-->
+            <section class="frist-section">
+                <div class="div-title">
+                    <h1>Patrick Mahomes</h1>
+                </div>
+
+                <div class="patrick">
+                    <div classs="img-curiosidade">
+                        <img src="img/patrickvert.jpg" alt="">
+                    </div>
+                    <p>Este é o quarto ano consecutivo de Mahomes classificado em primeiro lugar nesta pesquisa.
+                        <br>
+                        <br>
+                        Em 2022, ele levou os Chiefs à segunda vitória do Super Bowl nas últimas quatro temporadas
+                        e se tornou o primeiro jogador a vencer o MVP da liga e um Super Bowl na mesma temporada desde
+                        Kurt Warner em 1999.
+                    </p>
+
+                </div>
+
+            </section>
+            <section>
+                <div class="div-title">
+                    <h1>Justin Jefferson</h1>
+                </div>
+                <div class="justin">
+                    <p>Jefferson ultrapassou um marco estatístico significativo em cada uma de suas três primeiras
+                        temporadas na NFL,
+                        passando de 1.400 jardas recebidas para 1.600 a 1.800. Isso torna sua meta para 2023 clara e ao
+                        seu alcance.
+                        Se ele atingir 2.000 jardas de recepção, ele quebrará o recorde da temporada regular da NFL de
+                        Calvin Johnson (1.964).
+                    </p>
+                    <div class="img-curiosidade">
+                        <img src="img/justinvert.jpeg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="div-title">
+                    <h1>Jalen Hurts</h1>
+                </div>
+
+                <div class="jalen">
+                    <div classs="img-jalen">
+                        <img src="img/jalenvert.webp" alt="">
+                    </div>
+                    <p>O técnico Nick Sirianni disse que viu Hurts levar seu jogo a outro nível nesta offseason,
+                        especificamente com sua precisão e tomada de decisão. 
+                        <br>
+                        <br>
+                        Isso parece difícil de acreditar à
+                        primeira vista, considerando que Hurts está saindo de uma campanha do calibre de MVP, na
+                        qual estabeleceu um novo recorde da franquia com 4.461 jardas totais.
+                        <br>
+                        <br>
+                        Hurts é o único quarterback na história da NFL com várias temporadas de pelo menos 10 touchdowns corridos e 750 jardas corridas.
+                    </p>
+
+                </div>
+
+            </section>
+
+        </main><!--FECHA MAIN-->
+        <footer>
+            <div class="footer-container">
+                <div class="icones">
+                    <a href="https://www.facebook.com/groups/nflbrasiloficial/?locale=pt_BR"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/nfl/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/NFL"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.nfl.com"><i class="fa-brands fa-google-plus"></i></a>
+                    <a href="https://www.youtube.com/user/NFL"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="nav-footer">
+                <ul>
+                    <li><a href="">Endereço</a></li>
+                    <li><a href="">Telefone</a></li>
+                    <li><a href="">CNPJ</a></li>
+                    <li><a href="">Fale Conosco</a></li>
+                </ul>
+            </div>
+            <div class="footer-baixo">
+                <p>Todos os direitos reservados a NFL &copy;2023; Feito por <span class="devs">Fernando &
+                        Henrique</span>
+                </p>
+
+            </div>
+        </footer>
+    </body>
+
+</html>

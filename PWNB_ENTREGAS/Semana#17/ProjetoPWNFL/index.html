@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloHome.css" type="text/css" media="screen">
+    <title>National Football League</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/domlogin.js" defer></script>
+    <script src="js/dom.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html">
+                <img class="logo" src="img/NFL-Logo.svg" alt="Logo NFL">
+            </a>
+        </div>
+        <nav class="navbar">
+            <a href="historiaDallas.html">
+                <img src="img/dallaslogo.png" alt="Logo Dallas">
+            </a>
+
+            <a href="historiaPatriots.html">
+                <img src="img/patriotslogo.png" alt="Logo New England">
+            </a>
+
+            <a href="historiaGreenBay.html">
+                <img src="img/greenbaylogo.jpg" alt="Logo Green Bay">
+            </a>
+
+            <a href="historiaGiants.html">
+                <img src="img/nwgiantslogo.png" alt="Logo Giants">
+            </a>
+
+            <a href="historiaWhshington.html">
+                <img src="img/washingtonlogo.jpeg" alt="Logo Washington">
+            </a>
+        </nav>
+
+        <nav>
+            <ul>
+  
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="jogadores.html">Jogadores</a></li>
+                <li><a onclick="clicklogin()" id="welcome-message"></a></li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+
+
+    <div class="center">
+        <div class="wrapper-header">
+            <div class="NFL">
+                <h2><span>National </span>Football League</h2>
+            </div>
+        </div>
+    </div>
+    <main>
+        <!-- <div class = "content">Imagem de um jogador e ao lado um texto-->
+        <!--imagem-->
+        <div class="principal">
+            <div class="corpo">
+                <div class="text">
+                    <img class="imgCentro" src="img/NFL2023.png" alt="NFL">
+                    <div class="caixa-principal">
+                        <h3>O Draft da NFL é um evento anual em que os 32 times da National Football League escolhe
+                            novos
+                            jogadores vindos do futebol americano universitário.
+                            É a forma mais comum de recrutamento dde jogadores da NFL
+                        </h3>
+                    </div>
+                </div>
+
+
+
+                <!--Div pai das colunas a seguir do lado direito da tela-->
+                <section class="section1">
+                    <div class="container"><!--Coluna esquerda do lado direito da tela-->
+                        <!--noticia que compoe esta coluna-->
+                        <a href="https://www.espn.com.br/nfl/artigo/_/id/12671850/desabafo-emocionante-damar-hamlin-volta-nfl-trauma-assustador-parada-cardiaca-campo"
+                            class="noticia-main">
+
+                            <img src="img/noticia.jpeg" alt="">
+                            <div class="caixa-noticia1">
+                                <h3>O desabafo emocionante de Damar Hamlin na volta à NFL após 'trauma' assustador
+                                    com parada cardíaca dentro do campo</h3>
+                            </div>
+                        </a>
+                        <div class="outra-noticia">
+                            <a href="https://www.espn.com.br/nfl/artigo/_/id/12699987/nfl-buffalo-bills-flertam-virada-diggs-comemorar-a-la-cristiano-ronaldo-perdem-jacksonville-jaguars-londres"
+                                class="redirect-notice">
+                                <div class="caixa-noticia3">
+                                    <img src="img/noticia3.jpeg" alt="">
+
+                                    <div class="txt-outra">
+                                        <h3>
+                                            Bills flertam com a virada e veem Diggs comemorar à la Cristiano Ronaldo,
+                                            mas perdem
+                                            dos Jaguars pela NFL em londres
+                                        </h3>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!--Coluna direito do lado direito da tela-->
+
+            <div><!--noticia que compoe esta coluna-->
+                <div class="noticia2">
+                    <a href="https://www.espn.com.br/futebol/copa-do-mundo/artigo/_/id/12616228/copa-do-mundo-2026-estadios-nfl-brigam-sediar-final-saiba-qual-e-o-favorito"
+                        class="redirect">
+                        <img src="img/Noticia2.png" alt="">
+                        <div class="caixa-noticia2">
+                            <h3>Estádio da NFL brigam para sediar final da Copa do Mundo em 2026;</h3>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <section>
+            <div class="section-secundario"><!--container mais 3 noticias abaixo das colunas anteriores-->
+
+                <div class="video">
+                    <h1>Curiosidades que rondam a National Football League</h1>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DI5NvbsbFsE?si=d9N3ZLWCSgNAXURg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="icones">
+                <a href="https://www.facebook.com/groups/nflbrasiloficial/?locale=pt_BR"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/nfl/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/NFL"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.nfl.com"><i class="fa-brands fa-google-plus"></i></a>
+                <a href="https://www.youtube.com/user/NFL"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="nav-footer">
+            <ul>
+                <li><a href="">Endereço</a></li>
+                <li><a href="">Telefone</a></li>
+                <li><a href="">CNPJ</a></li>
+                <li><a href="">Fale Conosco</a></li>
+            </ul>
+        </div>
+        <div class="footer-baixo">
+            <p>Todos os direitos reservados a NFL &copy;2023; Feito por <span class="devs">Fernando & Henrique</span>
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

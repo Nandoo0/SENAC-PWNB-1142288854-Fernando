@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+  }
+  body{
+    width: 100%;
+   margin: 0 auto;
+   padding: 0 2%;
+    background-color: rgba(0, 0, 255, 0.075);
+  }
+  header{
+  
+    height: 70px;
+    background-color: #13293D;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+  
+  }
+  li:last-child{
+    margin-right: 30px;
+  }
+  
+  ul{
+    list-style: none;
+    display: flex;
+    }
+  nav li a{
+    color: white;
+    display:block;
+    text-decoration: none;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  nav a:hover{
+    transition: 0.5 ease;
+    color:#b1b0b0cd;
+  }
+  
+ .logo {
+    width: 50px;
+    height: 50px;
+}
+
+  .navbar{
+    display: flex;
+    justify-content: center;
+    width: min-content;
+    height: 70px;
+    
+    align-items: center;
+  }
+  .navbar img{
+    width: 90px;
+    height: 60px;
+    padding: 10px;
+  }
+  .navbar img:first-child{
+    margin-right: 0;
+  
+  }
+  .NFL h2 span{
+    font-size: 35px;
+    color: rgb(25, 13, 133);
+  }
+  
+  .NFL h2{
+    font-size: 35px;
+    color: #000;
+  }
+  
+  .center{
+    
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+  
+    flex-wrap: wrap;
+  }
+  .wrapper-header{
+    padding: 22px 0;
+    margin-right: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  .div-title{
+        height: 2rem;
+        padding-bottom: 5rem;
+        padding-top: 2rem;
+        display: flex;
+        align-content: flex-start;
+        justify-content: center;
+        font-size: 18px;
+  }
+  .div-title h1{
+    color: #13293D;
+}
+
+  .div-title h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: black;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+  }
+
+  .origemDallas{
+    justify-content: center;
+    display: flex;
+  }
+  
+  .origemDallas img{
+    padding-right: 2rem;
+    border-radius: 500px;
+  }
+
+  .origemDallas p{
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+  }
+
+  .informativo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .informativo p{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .informativo img{
+    width: 386px;
+    padding-top: 2rem;
+  }
+
+  .info-dir{
+    padding-left: 2rem;
+  }
+
+  .informativo2{
+    justify-content: center;
+    display: flex;
+  }
+
+  .informativo2 p{
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+
+ .estadio img{
+  width: 600px;
+ }
+
+ .informativo3{
+  margin-top: 5rem;
+
+ }
+
+ .informativo3 p{
+  text-align: center;
+  margin: 2rem;
+  font-size: 18px;
+ }
+
+
+
+  footer{
+    background-color: #13293D;
+    margin-top: 80px;
+  }
+  .footer-container{
+    width: 100%;
+    padding: 10px 30px 20px;
+  }
+  .icones{
+    display: flex;
+    justify-content: center;
+  }
+  .icones a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .icones a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+  }
+  .icones a:hover{
+    background-color: #111;
+    transition: 0.5s;
+  }
+  .icones a:hover i{
+    color:white;
+    transition: 0.5s;
+  }
+  
+  .nav-footer{
+    margin: 30px 0;
+  
+  }
+  .nav-footer ul{
+    display: flex;
+    justify-content: center;
+  }
+  .nav-footer ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+  .nav-footer ul li a:hover{
+    opacity: 10;
+  }
+  .footer-baixo{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+  }
+  .footer-baixo p{
+    color: white;
+  
+  }
+  .devs{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+  }
+  
+  
+  
+  
+  
